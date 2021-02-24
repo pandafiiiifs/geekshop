@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>{{ title }}</title>
+    <title>{{ title|title }}</title>
 </head>
 <body>
 <h1>{{ header }}</h1>
@@ -12,7 +12,7 @@
     <p>{{ product.price }}руб.</p>
 
 {% endfor %}
-{% if promotion %}
+{% if products_of_promotion %}
     {% for product in products_of_promotion %}
         <h5>{{ product.name }}</h5>
         <p style="color: #ff0000">{{ product.price }}руб.</p>

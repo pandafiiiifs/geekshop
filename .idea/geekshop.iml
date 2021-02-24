@@ -3,9 +3,9 @@
   <component name="FacetManager">
     <facet type="django" name="Django">
       <configuration>
-        <option name="rootFolder" value="$USER_HOME$/Desktop/projects/geekshop-server/venv" />
-        <option name="settingsModule" value="" />
-        <option name="manageScript" value="" />
+        <option name="rootFolder" value="$USER_HOME$/Desktop/projects/geekshop-server" />
+        <option name="settingsModule" value="geekshop/geekshop/settings.py" />
+        <option name="manageScript" value="geekshop/manage.py" />
         <option name="environment" value="&lt;map/&gt;" />
         <option name="doNotUseTestRunner" value="false" />
         <option name="trackFilePattern" value="" />
